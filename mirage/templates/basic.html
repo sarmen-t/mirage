@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mirage Food Truck</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+    <br></br>
+        <h2 class="item-a">
+            <button onclick="window.location.href='/'" class="button_h" type="button">Mirage Mediterranean Grill</button>
+        </h2>
+        <table class="item-b">
+            <tr>                
+                <th>
+                    <button onclick="window.location.href='/menu'" class="button" type="button">Menu</button>
+                </th>
+                <th>
+                    <button onclick="window.location.href='/food'" class="button" type="button">Our Food</button>
+                </th>
+                <th>
+                    <button onclick="window.location.href='/services'" class="button" type="button">Services</button>
+                </th>
+                <th>
+                    <button onclick="window.location.href='/contact'" class="button" type="button">Contact</button>
+                </th>
+              </tr>
+        </table>
+    <br></br>
+    </div>
+    <hr style="width:90%;height:8px;color:black;background-color:black"></hr>
+    <main>
+        {% block main %}{% endblock %}
+    </main>
+</body>
+</html>
