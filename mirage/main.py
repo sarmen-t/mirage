@@ -22,3 +22,11 @@ def services():
 def contact():
     return render_template('contact.html')
 
+@app.route('/order/')
+def order():
+    return render_template('order.html')
+
+@app.route('/cart/')
+def cart():
+    return render_template('cart.html')
+

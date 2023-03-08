@@ -1,0 +1,8 @@
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-rows: repeat(auto, 1fr);
+    background-color: rgb(255, 0, 0);
+    column-gap: 15px;
+    align-items: center;
+  }

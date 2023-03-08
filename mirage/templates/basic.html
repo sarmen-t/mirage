@@ -3,11 +3,11 @@
 <head>
     <title>Mirage Food Truck</title>
     <link rel="stylesheet" href="/static/styles.css">
+    {% block stylesheets %}{% endblock %}
 </head>
 
 <body>
     <div class="container">
-    <br></br>
         <h2 class="item-a">
             <button onclick="window.location.href='/'" class="button_h" type="button">Mirage Mediterranean Grill</button>
         </h2>
@@ -27,7 +27,10 @@
                 </th>
               </tr>
         </table>
-    <br></br>
+        <button class="item-c" onclick="window.location.href='/order'" class="button" type="button">Order Now!</button>
+        <button class="item-d" onclick="window.location.href='/cart'" class="button" type="button">
+            <img style="width:60%;"src="../static/cart.png" alt="Menu">
+        </button>
     </div>
     <hr style="width:90%;height:8px;color:black;background-color:black"></hr>
     <main>
