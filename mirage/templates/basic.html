@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Mirage Food Truck</title>
+    <link rel="icon" type="image/x-icon" href="/static/web.ico">
     <link rel="stylesheet" href="/static/styles.css">
     {% block stylesheets %}{% endblock %}
 </head>
@@ -32,9 +33,12 @@
             <img style="width:60%;"src="../static/cart.png" alt="Menu">
         </button>
     </div>
-    <hr style="width:90%;height:8px;color:black;background-color:black"></hr>
     <main>
         {% block main %}{% endblock %}
     </main>
 </body>
+<footer>
+    <p>Website created by: Sarmen Ter-oganesyan</p>
+    <p><a href="mailto:sarmenteroganesyan@gmail.com">sarmenteroganesyan@gmail.com</a></p>
+  </footer>
 </html>

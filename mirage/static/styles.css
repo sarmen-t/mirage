@@ -2,6 +2,13 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
+footer {
+  text-align: center;
+  font-family: andale mono, monospace;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
 h2 {
   font-family:andale mono, monospace;
   font-weight:100;
@@ -47,7 +54,7 @@ th, td {
 
 .container {
   display: grid;
-  grid-template-columns: 1px 1.6fr 3fr 1.3fr 0.5fr ;
+  grid-template-columns: 1px 1.6fr 3fr 1.3fr 0.5fr 1px;
   grid-template-rows: auto;
   background-color: black;
   column-gap: 15px;
